@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.8</title>
-      <pubDate>Thu, 29 Oct 2026 15:09:34 GMT</pubDate>
-      <sparkle:version>85</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <title>Bhasha 0.1.9</title>
+      <pubDate>Sat, 31 Oct 2026 00:08:10 GMT</pubDate>
+      <sparkle:version>92</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.8</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.9</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>한/영을 바꿀 때 터미널에 <code>~</code>가 찍히거나 메모 같은 앱에서 경고음(띡)이 나던 문제를 고쳤습니다. Caps Lock을 F18 대신 키 입력이 생기지 않는 F24로 매핑합니다. 업데이트 후 처음 실행할 때 연결된 키보드의 매핑이 자동으로 바뀝니다.</li>
+<li>메뉴바 팝업 맨 위 ‘Bhasha’ 옆에 앱 버전을 표시합니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.8.zip" length="1912107" type="application/octet-stream" sparkle:edSignature="JKHawarl7ReCIuF+acDel19ydq6GZ/8O2XXZEha+YL7LY+fgZ19szI7KTyO3N80dMLjN6e6qYxt03c2HG0tnDw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.9.zip" length="1914426" type="application/octet-stream" sparkle:edSignature="b8H7+6XU0gBuSjkTnPTvydZ1LDLj3TLGHNOnlMrW1n8u1ZBsmbTwkDO9cNgvCCXS7SHYGMOJF7UhRtte0VWvAA=="/>
     </item>
   </channel>
 </rss>
