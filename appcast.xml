@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.9</title>
-      <pubDate>Sat, 31 Oct 2026 00:08:10 GMT</pubDate>
-      <sparkle:version>92</sparkle:version>
-      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+      <title>Bhasha 0.1.10</title>
+      <pubDate>Mon, 02 Nov 2026 11:25:24 GMT</pubDate>
+      <sparkle:version>169</sparkle:version>
+      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.9</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.10</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>메뉴바 팝업 맨 위 ‘Bhasha’ 옆에 앱 버전을 표시합니다.</li>
+<li>설정 › 일반에 ‘디버그 로그’를 추가했습니다(기본 꺼짐). 켜면 한/영 전환 전후의 입력기 상태, 앞에 있는 앱, 입력 소스 변경, 전환 뒤 첫 키까지 걸린 시간, 키보드 연결, 입력 관련 시스템 설정을 <code>~/Library/Logs/Bhasha/debug.log</code>에 기록합니다. 증상이 보인 순간 양쪽 Shift를 함께 누르거나 팝업의 ‘디버그 로그에 문제 표시’를 누르면 로그에 표시가 남습니다. 입력한 글자는 기록하지 않습니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.9.zip" length="1914426" type="application/octet-stream" sparkle:edSignature="b8H7+6XU0gBuSjkTnPTvydZ1LDLj3TLGHNOnlMrW1n8u1ZBsmbTwkDO9cNgvCCXS7SHYGMOJF7UhRtte0VWvAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.10.zip" length="2073501" type="application/octet-stream" sparkle:edSignature="kgsE5i1vp1FsFPnyQW+2VRCwdmCyzHUD0hqKgwkExMNmtloD5dsf2n+cuaX9eqrATPiSW91ORQg5r/9PFbM+Bg=="/>
     </item>
   </channel>
 </rss>
