@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.10</title>
-      <pubDate>Mon, 02 Nov 2026 11:25:24 GMT</pubDate>
-      <sparkle:version>169</sparkle:version>
-      <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+      <title>Bhasha 0.1.11</title>
+      <pubDate>Mon, 02 Nov 2026 12:11:11 GMT</pubDate>
+      <sparkle:version>171</sparkle:version>
+      <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.10</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.11</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>설정 › 일반에 ‘디버그 로그’를 추가했습니다(기본 꺼짐). 켜면 한/영 전환 전후의 입력기 상태, 앞에 있는 앱, 입력 소스 변경, 전환 뒤 첫 키까지 걸린 시간, 키보드 연결, 입력 관련 시스템 설정을 <code>~/Library/Logs/Bhasha/debug.log</code>에 기록합니다. 증상이 보인 순간 양쪽 Shift를 함께 누르거나 팝업의 ‘디버그 로그에 문제 표시’를 누르면 로그에 표시가 남습니다. 입력한 글자는 기록하지 않습니다.</li>
+<li>한/영 전용 키보드로 한글로 바꾼 뒤 자모가 풀어져 입력되는 문제(ㅅㅓㄹ)를 막으려고, 0.1.6에서 뺐던 ‘포커스를 잠깐 가져왔다 돌려주는’ 동작을 되살렸습니다. 한글로 바꿀 때 쓰던 창이 잠깐 깜빡일 수 있습니다. 디버그 로그를 켜 두면 이 동작이 실행됐는지도 기록됩니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.10.zip" length="2073501" type="application/octet-stream" sparkle:edSignature="kgsE5i1vp1FsFPnyQW+2VRCwdmCyzHUD0hqKgwkExMNmtloD5dsf2n+cuaX9eqrATPiSW91ORQg5r/9PFbM+Bg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.11.zip" length="2078896" type="application/octet-stream" sparkle:edSignature="pTVq3zv5vloS8vg/mJlYjvfZzQy8ORN6et6weYxfOzN2/NeUpmRUM8ylcPocXlpD+8XSpUP1F1CyN9w8uHsaCQ=="/>
     </item>
   </channel>
 </rss>
