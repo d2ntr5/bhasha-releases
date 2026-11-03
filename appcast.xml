@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.15</title>
-      <pubDate>Tue, 03 Nov 2026 03:09:49 GMT</pubDate>
-      <sparkle:version>179</sparkle:version>
-      <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
+      <title>Bhasha 0.1.16</title>
+      <pubDate>Tue, 03 Nov 2026 03:13:17 GMT</pubDate>
+      <sparkle:version>181</sparkle:version>
+      <sparkle:shortVersionString>0.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.15</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.16</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>일시 정지를 누를 때, macOS의 ‘Caps Lock 키로 ABC 입력 소스 전환’이 꺼져 있으면 먼저 알립니다. 이 설정이 꺼져 있으면 일시 정지 중에는 어느 키보드의 Caps Lock으로도 한/영을 바꿀 수 없기 때문입니다. 안내 창에서 <b>키보드 설정 열기</b>(설정을 열고 일시 정지), <b>그냥 일시 정지</b>, <b>취소</b> 중 고릅니다. 다시 켤 때 이 설정이 켜져 있으면 끄도록 권합니다(켜 두면 기본 설정으로 둔 키보드의 Caps Lock도 한/영을 바꿈).</li>
+<li>일시 정지 · 다시 켜기 안내 창에 <b>확인</b> 버튼을 넣었습니다. 키보드 설정에서 ‘Caps Lock 키로 ABC 입력 소스 전환’을 바꾼 뒤 <b>확인</b>을 누르면 Bhasha가 설정을 다시 읽어, 바뀌었으면 일시 정지(또는 다시 켜기)하고, 아직 그대로면 현재 상태와 함께 안내를 다시 보여 줍니다. 안내 창에 현재 상태(켜짐 · 꺼짐)가 표시되고, <b>키보드 설정 열기</b>는 설정만 열고 안내 창은 남겨 둡니다. 바꾸지 않고 진행하려면 <b>그냥 일시 정지</b>(다시 켤 때는 <b>그대로 다시 켜기</b>)를 누릅니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.15.zip" length="2071214" type="application/octet-stream" sparkle:edSignature="hpFIOU+mtXYnO55sU8EUUMYznww2JaOYZqrVll519j0ufbuyuCNz/brRqVuK2OVe0vZMEWLCqsKOrQT7OzL0Ag=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.16.zip" length="2071559" type="application/octet-stream" sparkle:edSignature="QBmJ5l5wKZEDpQ9WXVCZB5TzIcdAvaPoP8O5QdoX5GnMuljTZXAoFKDkTdTLBlgcHqDFjJG9nodaGoTSMPABBQ=="/>
     </item>
   </channel>
 </rss>
