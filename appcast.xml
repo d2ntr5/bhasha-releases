@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.13</title>
-      <pubDate>Tue, 03 Nov 2026 02:57:09 GMT</pubDate>
-      <sparkle:version>175</sparkle:version>
-      <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+      <title>Bhasha 0.1.14</title>
+      <pubDate>Tue, 03 Nov 2026 03:01:05 GMT</pubDate>
+      <sparkle:version>177</sparkle:version>
+      <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.13</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.14</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>메뉴바 팝업 맨 위에서 ‘भाषा · 산스크리트어로 ‘언어’’와 ‘현재 입력: …’ 줄을 지웠습니다. ‘Bhasha’와 버전만 남습니다.</li>
+<li>메뉴바 팝업을 줄였습니다. 메뉴바 아이콘 설명 줄, ‘새 키보드 연결 시 자동으로 켜기’ · ‘로그인 시 실행’ 스위치, ‘업데이트 확인…’을 팝업에서 뺐습니다. 모두 설정 창에 있습니다(아이콘 설명은 사용법, 스위치는 일반, 업데이트 확인은 정보). 새 버전 알림 배너는 그대로 팝업에 뜹니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.13.zip" length="2078861" type="application/octet-stream" sparkle:edSignature="JAC1JPdNnnyu8+iykhMccd5NH+jsEIzaJYVqgy/Smaf/lfDgsgttSnwRPrueFc6/gn0o0sn7nc8Des2uKSIoBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.14.zip" length="2068548" type="application/octet-stream" sparkle:edSignature="m0VoglPSIKaJIzLwZuhwBSTFucZHkf6wKhKNJfyEpzoF6v6VbtB7+hxqpWERHuozDGCQVNsxEmAp+bTH64yBCg=="/>
     </item>
   </channel>
 </rss>
