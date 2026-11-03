@@ -3,17 +3,17 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.12</title>
-      <pubDate>Mon, 02 Nov 2026 16:08:25 GMT</pubDate>
-      <sparkle:version>173</sparkle:version>
-      <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+      <title>Bhasha 0.1.13</title>
+      <pubDate>Tue, 03 Nov 2026 02:57:09 GMT</pubDate>
+      <sparkle:version>175</sparkle:version>
+      <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.12</h3>
+      <description><![CDATA[<h3>Bhasha 0.1.13</h3>
 <h4>바뀐 점</h4>
 <ul>
-<li>한글로 바꿀 때 창이 깜빡이지 않게 했습니다. 키 입력을 받는 앱에 직접 입력 소스를 바꾸도록 요청합니다(메뉴바 입력 메뉴와 같은 방식). 이 방식이 실패하면 0.1.11처럼 포커스를 잠깐 가져왔다 돌려줍니다. 디버그 로그에 어느 방식이 쓰였는지 남습니다.</li>
+<li>메뉴바 팝업 맨 위에서 ‘भाषा · 산스크리트어로 ‘언어’’와 ‘현재 입력: …’ 줄을 지웠습니다. ‘Bhasha’와 버전만 남습니다.</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.12.zip" length="2085084" type="application/octet-stream" sparkle:edSignature="r7aaMZ66d2QZhKIIud47CZG7T3ZcMlXyUX32izhR5XUitbYc2VX2gTi/XQJld6iwduEzOMEV8P3eA3UZD2c5AA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.13.zip" length="2078861" type="application/octet-stream" sparkle:edSignature="JAC1JPdNnnyu8+iykhMccd5NH+jsEIzaJYVqgy/Smaf/lfDgsgttSnwRPrueFc6/gn0o0sn7nc8Des2uKSIoBQ=="/>
     </item>
   </channel>
 </rss>
