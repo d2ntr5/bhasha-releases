@@ -3,10 +3,10 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.18</title>
-      <pubDate>Sun, 08 Nov 2026 03:04:45 GMT</pubDate>
-      <sparkle:version>187</sparkle:version>
-      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
+      <title>Bhasha 0.1.19</title>
+      <pubDate>Sun, 08 Nov 2026 05:33:43 GMT</pubDate>
+      <sparkle:version>189</sparkle:version>
+      <sparkle:shortVersionString>0.1.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,15 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="189" data-version="0.1.19">
+<h3>v0.1.19 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정 화면을 다른 앱들과 같은 모양으로 바꿨습니다. 팝업 머리에 <b>⚙</b>(설정)를 두었고, 설정 창은 위쪽 탭 줄로 바꿨습니다. 창 머리를 끌어 옮길 수 있고 옮긴 자리를 기억합니다. 창 높이는 연 탭 내용에 맞추고, 탭을 바꿔도 창 위 끝은 그 자리에 있습니다. 아래 줄의 <b>완료</b>나 esc로 닫습니다.</li>
+<li>머리 색 9가지(청록 · 파랑 · 남색 · 보라 · 자주 · 다홍 · 호박 · 초록 · 먹색, 기본 청록)를 고를 수 있습니다(설정 › 일반 › 화면 › 머리 색). 팝업 머리 · 설정 머리 · 스위치 · 주 단추에 들어갑니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="187" data-version="0.1.18">
-<h3>v0.1.18 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.1.18 <small>2026-11-08</small></h3>
 <ul>
 <li>설정에 <b>업데이트</b> 탭을 새로 만들었습니다. 지금 버전, 자동으로 업데이트 확인, 마지막 확인과 <b>업데이트 확인…</b>, <b>모든 버전 보기…</b>가 있습니다. <b>정보</b> 탭은 앱 소개만 남겼습니다.</li>
 <li>새 버전을 30분마다, 앱을 켤 때와 잠자기에서 깨어날 때 확인합니다.</li>
@@ -91,7 +98,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.18.zip" length="2170061" type="application/octet-stream" sparkle:edSignature="rtAWnVLcJN0iiA9B94Z/CvQteN7IjYYuEsdF70TKU9KuO1ygf+KWQ73XoqJy3utiffxzubiLMZfxMyRI6jzUAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.19.zip" length="2225087" type="application/octet-stream" sparkle:edSignature="ICwleqOUvcPhFvHkTT+iYkIy/WEy/7ZZ4K8Ia7IrZIUpz1GYresVi2OLuDEp5tRymXCGAZIei6MpwNSXki2TBw=="/>
     </item>
   </channel>
 </rss>
