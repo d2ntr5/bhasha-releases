@@ -3,17 +3,95 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.17</title>
-      <pubDate>Tue, 03 Nov 2026 04:04:18 GMT</pubDate>
-      <sparkle:version>183</sparkle:version>
-      <sparkle:shortVersionString>0.1.17</sparkle:shortVersionString>
+      <title>Bhasha 0.1.18</title>
+      <pubDate>Sun, 08 Nov 2026 03:04:45 GMT</pubDate>
+      <sparkle:version>187</sparkle:version>
+      <sparkle:shortVersionString>0.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Bhasha 0.1.17</h3>
-<h4>바뀐 점</h4>
+      <description><![CDATA[<style>
+section { margin-bottom: 12px; }
+section h3 small { font-weight: normal; color: #6E6E73; }
+.install { font-size: 10.5px; font-weight: bold; color: #fff; background: #0A84FF; border-radius: 4px; padding: 0 5px; }
+section.sparkle-installed-version > * { display: none; }
+section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
+section.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="187" data-version="0.1.18">
+<h3>v0.1.18 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정에 <b>업데이트</b> 탭을 새로 만들었습니다. 지금 버전, 자동으로 업데이트 확인, 마지막 확인과 <b>업데이트 확인…</b>, <b>모든 버전 보기…</b>가 있습니다. <b>정보</b> 탭은 앱 소개만 남겼습니다.</li>
+<li>새 버전을 30분마다, 앱을 켤 때와 잠자기에서 깨어날 때 확인합니다.</li>
+<li>여러 버전이 쌓였을 때 처음 <b>업데이트…</b>를 누르면 실패하던 문제를 고쳤습니다. 이제 누를 때마다 새로 확인해 가장 새 버전을 설치하고, 업데이트 창에 지금 버전보다 새 버전의 바뀐 점을 모두 버전별로 보여 줍니다.</li>
+<li>자동 확인이 2번 연속 실패하면 팝업 맨 위 빨간 띠 「● 업데이트 서버와 통신 문제 발생」과 메뉴바 아이콘 점으로 알리고, 설정 › 업데이트에서 오류와 통신 확인 방법을 보여 줍니다. 다음 확인이 성공하면 저절로 사라집니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="183" data-version="0.1.17">
+<h3>v0.1.17 <small>2026-11-03</small></h3>
 <ul>
 <li>‘Caps Lock 키로 ABC 입력 소스 전환’을 한 번도 바꾼 적이 없는 Mac에서는 이 설정을 ‘켜짐(macOS 기본값)’으로 봅니다. 전에는 ‘확인할 수 없음’으로 보고, 이미 켜져 있는데도 일시 정지할 때 안내 창을 띄웠습니다. 설정 가이드 3단계의 현재 상태도 같게 표시합니다.</li>
-</ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.17.zip" length="2071567" type="application/octet-stream" sparkle:edSignature="kN9b2s7oPUZtNXn3tcPgKiE3FrxPuesKZqc0W4VjTqnWWN439mH4LBeX62y9Xh1D0TNrVzuMTjDJ+oPBT6cMDg=="/>
+</ul>
+</section>
+<section data-sparkle-version="181" data-version="0.1.16">
+<h3>v0.1.16 <small>2026-11-03</small></h3>
+<ul>
+<li>일시 정지 · 다시 켜기 안내 창에 <b>확인</b> 버튼을 넣었습니다. 키보드 설정에서 ‘Caps Lock 키로 ABC 입력 소스 전환’을 바꾼 뒤 <b>확인</b>을 누르면 Bhasha가 설정을 다시 읽어, 바뀌었으면 일시 정지(또는 다시 켜기)하고, 아직 그대로면 현재 상태와 함께 안내를 다시 보여 줍니다. 안내 창에 현재 상태(켜짐 · 꺼짐)가 표시되고, <b>키보드 설정 열기</b>는 설정만 열고 안내 창은 남겨 둡니다. 바꾸지 않고 진행하려면 <b>그냥 일시 정지</b>(다시 켤 때는 <b>그대로 다시 켜기</b>)를 누릅니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="179" data-version="0.1.15">
+<h3>v0.1.15 <small>2026-11-03</small></h3>
+<ul>
+<li>일시 정지를 누를 때, macOS의 ‘Caps Lock 키로 ABC 입력 소스 전환’이 꺼져 있으면 먼저 알립니다. 이 설정이 꺼져 있으면 일시 정지 중에는 어느 키보드의 Caps Lock으로도 한/영을 바꿀 수 없기 때문입니다. 안내 창에서 <b>키보드 설정 열기</b>(설정을 열고 일시 정지), <b>그냥 일시 정지</b>, <b>취소</b> 중 고릅니다. 다시 켤 때 이 설정이 켜져 있으면 끄도록 권합니다(켜 두면 기본 설정으로 둔 키보드의 Caps Lock도 한/영을 바꿈).</li>
+</ul>
+</section>
+<section data-sparkle-version="177" data-version="0.1.14">
+<h3>v0.1.14 <small>2026-11-03</small></h3>
+<ul>
+<li>메뉴바 팝업을 줄였습니다. 메뉴바 아이콘 설명 줄, ‘새 키보드 연결 시 자동으로 켜기’ · ‘로그인 시 실행’ 스위치, ‘업데이트 확인…’을 팝업에서 뺐습니다. 모두 설정 창에 있습니다(아이콘 설명은 사용법, 스위치는 일반, 업데이트 확인은 정보). 새 버전 알림 배너는 그대로 팝업에 뜹니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="175" data-version="0.1.13">
+<h3>v0.1.13 <small>2026-11-03</small></h3>
+<ul>
+<li>메뉴바 팝업 맨 위에서 ‘भाषा · 산스크리트어로 ‘언어’’와 ‘현재 입력: …’ 줄을 지웠습니다. ‘Bhasha’와 버전만 남습니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="173" data-version="0.1.12">
+<h3>v0.1.12 <small>2026-11-03</small></h3>
+<ul>
+<li>한글로 바꿀 때 창이 깜빡이지 않게 했습니다. 키 입력을 받는 앱에 직접 입력 소스를 바꾸도록 요청합니다(메뉴바 입력 메뉴와 같은 방식). 이 방식이 실패하면 0.1.11처럼 포커스를 잠깐 가져왔다 돌려줍니다. 디버그 로그에 어느 방식이 쓰였는지 남습니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="171" data-version="0.1.11">
+<h3>v0.1.11 <small>2026-11-02</small></h3>
+<ul>
+<li>한/영 전용 키보드로 한글로 바꾼 뒤 자모가 풀어져 입력되는 문제(ㅅㅓㄹ)를 막으려고, 0.1.6에서 뺐던 ‘포커스를 잠깐 가져왔다 돌려주는’ 동작을 되살렸습니다. 한글로 바꿀 때 쓰던 창이 잠깐 깜빡일 수 있습니다. 디버그 로그를 켜 두면 이 동작이 실행됐는지도 기록됩니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="169" data-version="0.1.10">
+<h3>v0.1.10 <small>2026-11-02</small></h3>
+<ul>
+<li>설정 › 일반에 ‘디버그 로그’를 추가했습니다(기본 꺼짐). 켜면 한/영 전환 전후의 입력기 상태, 앞에 있는 앱, 입력 소스 변경, 전환 뒤 첫 키까지 걸린 시간, 키보드 연결, 입력 관련 시스템 설정을 <code>~/Library/Logs/Bhasha/debug.log</code>에 기록합니다. 증상이 보인 순간 양쪽 Shift를 함께 누르거나 팝업의 ‘디버그 로그에 문제 표시’를 누르면 로그에 표시가 남습니다. 입력한 글자는 기록하지 않습니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="92" data-version="0.1.9">
+<h3>v0.1.9 <small>2026-10-31</small></h3>
+<ul>
+<li>메뉴바 팝업 맨 위 ‘Bhasha’ 옆에 앱 버전을 표시합니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="85" data-version="0.1.8">
+<h3>v0.1.8 <small>2026-10-30</small></h3>
+<ul>
+<li>한/영을 바꿀 때 터미널에 <code>~</code>가 찍히거나 메모 같은 앱에서 경고음(띡)이 나던 문제를 고쳤습니다. Caps Lock을 F18 대신 키 입력이 생기지 않는 F24로 매핑합니다. 업데이트 후 처음 실행할 때 연결된 키보드의 매핑이 자동으로 바뀝니다.</li>
+</ul>
+</section>
+<section data-sparkle-version="77" data-version="0.1.7">
+<h3>v0.1.7 <small>2026-10-29</small></h3>
+<ul>
+<li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
+</ul>
+</section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.18.zip" length="2170061" type="application/octet-stream" sparkle:edSignature="rtAWnVLcJN0iiA9B94Z/CvQteN7IjYYuEsdF70TKU9KuO1ygf+KWQ73XoqJy3utiffxzubiLMZfxMyRI6jzUAg=="/>
     </item>
   </channel>
 </rss>
