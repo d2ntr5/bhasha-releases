@@ -3,10 +3,10 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.21</title>
-      <pubDate>Sun, 08 Nov 2026 10:18:38 GMT</pubDate>
-      <sparkle:version>195</sparkle:version>
-      <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
+      <title>Bhasha 0.1.22</title>
+      <pubDate>Sun, 08 Nov 2026 11:17:59 GMT</pubDate>
+      <sparkle:version>199</sparkle:version>
+      <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,14 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="199" data-version="0.1.22">
+<h3>v0.1.22 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>팝업과 설정 창의 머리를 다른 맥 앱들과 같은 모양으로 바꿨습니다. 팝업 머리는 한 줄에 실제 앱 아이콘 · <b>Bhasha</b> · 버전 · 둥근 ⚙, 설정 창 머리는 신호등 옆에 앱 아이콘과 「Bhasha 설정」을 두고 그 아래에 탭 줄을 둡니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="195" data-version="0.1.21">
-<h3>v0.1.21 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.1.21 <small>2026-11-08</small></h3>
 <ul>
 <li>메뉴바 팝업 아래쪽의 「설정… ⌘,」 줄을 없앴습니다. 설정은 팝업 머리의 <b>⚙</b>로 엽니다(팝업이 열려 있을 때 ⌘,도 됨).</li>
 </ul>
@@ -112,7 +118,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.21.zip" length="2225092" type="application/octet-stream" sparkle:edSignature="K7JPCGt8gu1w/D7yveb0cJEpTfnfFTbxN36McprjtOZFTL8sMPI1RPTpRfMZFGn1Ym8IuzHa5RVPaAguSJN3AA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.22.zip" length="2230492" type="application/octet-stream" sparkle:edSignature="W1KCNUfz5bpJ6FN6LCIBhOmoi8BHBeFmuEfoHfN9/JTvcKYx0pXDvGMKDJakTc1GNjqTNW8l0/A/pYHurdyHBw=="/>
     </item>
   </channel>
 </rss>
