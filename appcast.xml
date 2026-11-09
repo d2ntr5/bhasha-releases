@@ -3,10 +3,10 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.22</title>
-      <pubDate>Sun, 08 Nov 2026 11:17:59 GMT</pubDate>
-      <sparkle:version>199</sparkle:version>
-      <sparkle:shortVersionString>0.1.22</sparkle:shortVersionString>
+      <title>Bhasha 0.1.23</title>
+      <pubDate>Mon, 09 Nov 2026 14:12:23 GMT</pubDate>
+      <sparkle:version>203</sparkle:version>
+      <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,15 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="203" data-version="0.1.23">
+<h3>v0.1.23 <small>2026-11-09</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>글씨 크기를 고를 수 있습니다(설정 › 일반 › 화면 › 글씨 크기: 작게 · 보통 · 크게 · 아주 크게, 처음은 보통). 글씨와 함께 여백 · 단추 · 아이콘, 팝업과 설정 창 너비도 같은 비율로 커집니다. 팝업이나 설정 창에서 ⌘= 크게 · ⌘- 작게 · ⌘0 보통.</li>
+<li>설정 창 상자를 흰 바탕 + 얇은 테두리로, 글씨 크기를 다른 맥 앱들과 같은 표로 맞췄습니다(가장 작은 글씨 11pt). 화면 모드도 글씨 크기와 같은 모양의 고르기 단추로 바꿨습니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="199" data-version="0.1.22">
-<h3>v0.1.22 <small>2026-11-08</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.1.22 <small>2026-11-08</small></h3>
 <ul>
 <li>팝업과 설정 창의 머리를 다른 맥 앱들과 같은 모양으로 바꿨습니다. 팝업 머리는 한 줄에 실제 앱 아이콘 · <b>Bhasha</b> · 버전 · 둥근 ⚙, 설정 창 머리는 신호등 옆에 앱 아이콘과 「Bhasha 설정」을 두고 그 아래에 탭 줄을 둡니다.</li>
 </ul>
@@ -118,7 +125,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.22.zip" length="2230492" type="application/octet-stream" sparkle:edSignature="W1KCNUfz5bpJ6FN6LCIBhOmoi8BHBeFmuEfoHfN9/JTvcKYx0pXDvGMKDJakTc1GNjqTNW8l0/A/pYHurdyHBw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.23.zip" length="2284172" type="application/octet-stream" sparkle:edSignature="uM1+0L9X7HpS+W3ZEC7v/+kcBhDyjK87cSGBtgnTkD3NqOlBhZ6m1H7BTxareWxy+0mq6Vk3sIOs3rD9OEJxAA=="/>
     </item>
   </channel>
 </rss>
