@@ -3,10 +3,10 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.30</title>
-      <pubDate>Thu, 19 Nov 2026 23:22:17 GMT</pubDate>
-      <sparkle:version>235</sparkle:version>
-      <sparkle:shortVersionString>0.1.30</sparkle:shortVersionString>
+      <title>Bhasha 0.1.31</title>
+      <pubDate>Sun, 22 Nov 2026 23:52:48 GMT</pubDate>
+      <sparkle:version>243</sparkle:version>
+      <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,17 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="243" data-version="0.1.31">
+<h3>v0.1.31 <small>2026-11-23</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정에 「로그」 탭이 생겼습니다(앱 공통 표준). 앱 · 업데이트 · 설정 변경 · 입력 전환 로그를 따로 남기고, 로그마다 켜고 끄기 · 크기 보기(「지금 / 한도 · 파일 n개」와 막대) · 「지우기…」가 있습니다. 「모두 켜기」 · 「모두 끄기」로 한 번에 바꿀 수 있습니다.</li>
+<li>로그마다 파일 5개를 돌려 써서 한도를 넘지 않습니다(앱 · 입력 전환 20 MB, 업데이트 · 설정 변경 5 MB). 로그는 <code>~/Library/Logs/Bhasha</code>에 있습니다.</li>
+<li>「로그 내보내기…」는 모든 로그와 앱 · macOS 정보(<code>info.txt</code>)를 <code>Bhasha-logs-날짜-시각.zip</code> 하나로 묶습니다. 「로그 초기화…」는 확인 창을 거쳐 모든 로그를 지웁니다.</li>
+<li>설정 › 일반의 「디버그 로그」는 로그 탭의 「입력 전환」 로그가 되었습니다. 켜 두었으면 그대로 켜져 있고, 있던 기록(<code>debug.log</code>)도 옮겨집니다. 처음 쓰는 경우 입력 전환 로그는 꺼져 있습니다(나머지 셋은 켜짐). 누른 키 · 입력한 글자 · 비밀 값은 어느 로그에도 남기지 않습니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="235" data-version="0.1.30">
-<h3>v0.1.30 <small>2026-11-20</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.1.30 <small>2026-11-20</small></h3>
 <ul>
 <li>다크 모드에서 설정 › 업데이트의 초록 상자(새 버전)와 빨간 상자(통신 문제) 제목 글자를 밝게 바꿔 어두운 바탕에서 잘 읽히게 했습니다(앱 공통 표준에 맞춤).</li>
 </ul>
@@ -168,7 +177,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.30.zip" length="2316813" type="application/octet-stream" sparkle:edSignature="oP/M3RfEB0D9Icgn/A/3lHxLYjSBHpCKqTJVH3NoRhzWNAROkP+LKL8wn/7JXo7xvUmmudSNeQXDkFITuYjMAQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.31.zip" length="2458213" type="application/octet-stream" sparkle:edSignature="eH5MEVBd2BbG/LWAHN1s9bM6zk5tJdFrdeQhP1RiiAiZBtM0SMqqSyegyoMc4tEXjlrTX3eoaQV0ZDYVOfKnCw=="/>
     </item>
   </channel>
 </rss>
