@@ -3,10 +3,10 @@
   <channel>
     <title>Bhasha</title>
     <item>
-      <title>Bhasha 0.1.31</title>
-      <pubDate>Sun, 22 Nov 2026 23:52:48 GMT</pubDate>
-      <sparkle:version>243</sparkle:version>
-      <sparkle:shortVersionString>0.1.31</sparkle:shortVersionString>
+      <title>Bhasha 0.1.32</title>
+      <pubDate>Fri, 27 Nov 2026 14:19:38 GMT</pubDate>
+      <sparkle:version>261</sparkle:version>
+      <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section { margin-bottom: 12px; }
@@ -16,8 +16,16 @@ section.sparkle-installed-version > * { display: none; }
 section.sparkle-installed-version::after { content: "v" attr(data-version) " (지금 버전) 이전 내용은 보여 주지 않습니다."; color: #8E8E93; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
+<section data-sparkle-version="261" data-version="0.1.32">
+<h3>v0.1.32 <small>2026-11-27</small> <span class="install">설치할 버전</span></h3>
+<ul>
+<li>설정 › 일반 › 키보드에서 한/영 전용 키보드의 Caps Lock을 바꿔 넣을 키를 F13~F24 중에서 고를 수 있습니다(「Caps Lock 대신 보낼 키」). 처음 값은 지금과 같은 F24이고, 추천 글귀가 함께 나옵니다. F13~F20은 앱에 키로 전달되므로 고르면 주의 글귀가 나옵니다.</li>
+<li>다크 모드의 로그 탭 「지우기…」 · 「로그 초기화…」 글자를 기본 글자색으로 바꿔 잘 보이게 했습니다(라이트는 빨강 그대로).</li>
+<li>Mac App Store판을 함께 만듭니다. 이 직접 배포판은 지금처럼 앱 안에서 업데이트합니다.</li>
+</ul>
+</section>
 <section data-sparkle-version="243" data-version="0.1.31">
-<h3>v0.1.31 <small>2026-11-23</small> <span class="install">설치할 버전</span></h3>
+<h3>v0.1.31 <small>2026-11-23</small></h3>
 <ul>
 <li>설정에 「로그」 탭이 생겼습니다(앱 공통 표준). 앱 · 업데이트 · 설정 변경 · 입력 전환 로그를 따로 남기고, 로그마다 켜고 끄기 · 크기 보기(「지금 / 한도 · 파일 n개」와 막대) · 「지우기…」가 있습니다. 「모두 켜기」 · 「모두 끄기」로 한 번에 바꿀 수 있습니다.</li>
 <li>로그마다 파일 5개를 돌려 써서 한도를 넘지 않습니다(앱 · 입력 전환 20 MB, 업데이트 · 설정 변경 5 MB). 로그는 <code>~/Library/Logs/Bhasha</code>에 있습니다.</li>
@@ -177,7 +185,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>앱 안에서 업데이트할 수 있습니다. 하루 한 번 새 버전을 확인해 메뉴바 아이콘과 팝업 배너로 알리고, <b>업데이트…</b>를 누르면 변경 내용을 보고 설치합니다. 팝업 › <b>업데이트 확인…</b>이나 설정 › 정보에서 직접 확인할 수도 있고, 설정 › 일반에서 자동 확인을 끌 수 있습니다.</li>
 </ul>
 </section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.31.zip" length="2458213" type="application/octet-stream" sparkle:edSignature="eH5MEVBd2BbG/LWAHN1s9bM6zk5tJdFrdeQhP1RiiAiZBtM0SMqqSyegyoMc4tEXjlrTX3eoaQV0ZDYVOfKnCw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/bhasha-releases/main/releases/Bhasha-0.1.32.zip" length="2496160" type="application/octet-stream" sparkle:edSignature="DzHhpGbe6vTcep7kAA/T8m/pTE1NZpebaMLiFqEmhtJoe0ONks0PeMbAYdFoVyUbYuvokrjNHYPFMORTEFA3DA=="/>
     </item>
   </channel>
 </rss>
